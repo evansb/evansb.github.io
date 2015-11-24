@@ -7,9 +7,9 @@ layout: default
     {% for post in site.posts %}
       <li>
       	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      		{{ post.title }}
+      	  {{ post.title }}
       	</a>
-      	<span class="excerpt">{{post.excerpt}}</span>
+      	<span class="excerpt">{{post.excerpt}}</span>	
       	<a class="post-link-small" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
       </li>
     {% endfor %}
