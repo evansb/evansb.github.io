@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400,300italic,700,700italic);
+@import 'normalize.css';
+@import 'skeleton.css';
+
+// Our variables
+$base-font-family: "Merriweather", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.8;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #ecf0f1;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$asphalt: #34495e;
+$teal: #1abc9c;
+$midnight: #2c3e50;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

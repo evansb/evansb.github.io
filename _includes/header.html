@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="site-nav row container"> 
+    <div class="three columns">
+      <img class="avatar" src="{{site.baseurl}}/evansb.png" /><a>@evansb</a>
+    </div> 
+    <div class="one column"> 
+    </div>
+    <div class="eight columns right">
+      <a class="page-link" href="{{ "/" | prepend: site.baseurl }}">Posts</a>
+      <a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+      <a class="page-link" href="https://github.com/evansb">Github</a>
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</header>
