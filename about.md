@@ -10,13 +10,13 @@ a small town of [Blitar, Indonesia][2].
 
 My major is computer science with focus in programming Languages and
 software engineering. I am passionate about functional programming and
-programming language implementation. Being a language geek, I've written 
+programming language implementation. Being a language geek, I've written
 codes in various languages ranging from Javascript to Coq.
 
 ### Work Experience
 
 #### Undergraduate Research Intern (NUS, Summer 2015)
-Spent 2.5 months working on [HIP/SLEEK][3], a software system 
+Spent 2.5 months working on [HIP/SLEEK][3], a software system
 built to verify the correctness of heap manipulating program using separation
 logic. It is a huge OCaml codebase with over several hundreds thousands lines
 of code. As an undergraduate intern, I get to work in pair with a PhD student
@@ -39,7 +39,7 @@ Interpretation Program, though the language used is Javascript.
 [Bitbucket][5]
 
 Maintained a runtime system which comprises compiler and virtual machine for Jediscript, a
- subset of Javascript used in NUS to teach CS1101S. 
+ subset of Javascript used in NUS to teach CS1101S.
 
 #### FoodFlow
 
@@ -48,11 +48,6 @@ Maintained a runtime system which comprises compiler and virtual machine for Jed
 Worked as frontend developer on Foodflow, a company food ordering as a service.
 
 In this project I get to dabble with modern javascript stack such as React and Redux.
-
-#### Space
-
-Space is a general purpose web based workspace that supports collaborative editing via
-widgets.
 
 
 [1]: http://www.comp.nus.edu.sg/ "NUS School of Computing"
